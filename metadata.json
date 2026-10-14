@@ -1,0 +1,6 @@
+{
+  "name": "IELTS ExaminerAI: Classroom Auto-Grader",
+  "description": "Official IELTS Writing & Speaking auto-grader for Google Classroom. Calibrate grading with IELTS Band Descriptors, level-sensitive feedback, and your historical marked datasets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
