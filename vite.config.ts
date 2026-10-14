@@ -7,9 +7,9 @@ import {geminiApiPlugin} from './src/server/apiPlugin.ts';
 export default defineConfig(() => {
   return {
     base: '/Marking/',
-server: {
-port: 3000,
-host: '0.0.0.0',
+    server: {
+    port: 3000,
+    host: '0.0.0.0',  
 },
     plugins: [react(), tailwindcss(), geminiApiPlugin()],
     resolve: {
